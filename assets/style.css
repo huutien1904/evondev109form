@@ -1,0 +1,117 @@
+html {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+}
+input {
+  padding: none;
+}
+* {
+  box-sizing: border-box;
+}
+h1 {
+  padding: 0px;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to right top, #ff4988, #ffc781, #fffefc);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup {
+  width: 100%;
+  max-width: 50rem;
+  padding: 5.5rem 3.5rem;
+  background-color: white;
+  border: 10px;
+}
+.signup__heading {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.signup__already {
+  text-align: center;
+  font-size: 1.4rem;
+
+  margin-bottom: 1.6rem;
+}
+
+.signup__link {
+  color: #00aefd;
+  font-size: inherit;
+}
+
+.signup__link--undeline {
+  text-decoration: none;
+}
+
+.form__group {
+  margin-bottom: 1.5rem;
+}
+
+.form__group--2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form__input {
+  font-family: "Poppins", sans-serif;
+  color: black;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  outline: none;
+  font-size: 1.5rem;
+  font-weight: 500;
+  border: 1px solid #eee;
+  background-color: #eee;
+  transition: 0.25s linear;
+  width: 100%;
+}
+.form__input:focus {
+  border-color: #eee;
+  background-color: white;
+}
+.form__group--2 > .form__input {
+  width: calc(50% - 3px);
+}
+.form__group--2 > .form__input:first-child {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.form__group--2 > .form__input:last-child {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form__submit {
+  width: 100%;
+  outline: none;
+  border-radius: 1rem;
+  border-color: #eee;
+  box-shadow: none;
+  background-color: #00aefd;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.signup__button {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: white;
+}
+.signup__button-icon {
+  color: white;
+  position: absolute;
+  right: 17px;
+  top: 19px;
+  font-size: 2rem;
+  float: right;
+  z-index: 1;
+}
+.form__tos{
+  margin-top: 1rem;
+  font-size: 1.3rem;
+}
